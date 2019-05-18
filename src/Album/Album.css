@@ -1,0 +1,152 @@
+.album {
+
+}
+
+.album--artist-name-fit {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.album--card {
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 401px) { /* 769 */
+    .album--card {
+        width:170px;
+    }
+}
+
+.album--card-fav-section {
+    margin-right: 20px;
+    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: white;
+    height: 102px;  
+}
+
+.album--card-fav-section-img {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.album--card-fav-section-img-div {
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;        
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;  
+    height: 102px;  
+    width: 90px; 
+    background: rgb(255, 255, 255); /* Old browsers */
+}
+
+.album--color-bad {
+    background: -moz-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%);    
+}
+
+.album--color-decent {
+    background: -moz-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%);    
+}
+
+.album--color-good {
+    background: -moz-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%);    
+}
+
+.album--card:hover {
+    transform: scale(1.05);
+}
+
+.album--card:hover .pulse {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;    
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(5, 56, 107, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.album--font-size-name {
+    font-size: 15px;
+}
+
+.album--font-size-year {
+    font-size: 14px; 
+}
+
+.album--img {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.album--img-modal {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;  
+    border: 1px solid black;
+}
+
+.album--img-modal-div {
+    display: flex;
+    justify-content: center;
+}
+
+.album--modal-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px; 
+}
+
+.album--icon {
+    transform: scale(1.5);
+}
+
+.album--icon:hover  {
+    transform: scale(1.65);
+}
+
+.album--icon-close {
+    transform: scale(1.5);
+}
+
+.album--star-icon {
+    transform: scale(3);
+    stroke: #05386B;
+    stroke-width: 5;
+}
+
+.album--star-wrapper {
+    height: 41px;
+    width: 41px;
+}
+
+.album--stars {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 27px;
+}
+
+.album--title {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}

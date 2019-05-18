@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Concert+One');
+
+.app {
+
+}
+
+.app--add {
+    font-size: 35px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    stroke: black;
+    stroke-width: 25;
+}
+
+.app--icon {
+    animation: big-pulse 2s infinite;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;    
+    border-radius: 50%;
+}
+
+.app--footer {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.app--header {
+    height: 200px;
+    background-image: url(./images/background.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.app--logo {
+    width: 225px;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-concert {
+    font-family: 'Concert One', 'Roboto', sans-serif;
+}
+
+.font-courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+@-webkit-keyframes pulse { 
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(5, 56, 107, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 7.5px rgba(5, 56, 107, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(5, 56, 107, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(5, 56, 107, 0.4);
+      box-shadow: 0 0 0 0 rgba(5, 56, 107, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 7.5px rgba(5, 56, 107, 0);
+        box-shadow: 0 0 0 7.5px rgba(5, 56, 107, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(5, 56, 107, 0);
+        box-shadow: 0 0 0 0 rgba(5, 56, 107, 0);
+    }
+}
+
+@-webkit-keyframes big-pulse { 
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes big-pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .app--header {
+        height: 350px;
+    }    
+    .app--logo {
+        margin-top: 40px;
+        width: 350px;
+    }    
+    .app--add {
+        font-size: 85px;
+        right: 75px;
+        top: 100px;
+    }    
+}
