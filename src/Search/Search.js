@@ -259,7 +259,7 @@ class Search extends Component {
         return(
             <div className="search">                
                 <header className="search--header">
-                    <Link to="/">
+                    <Link to={'/'}>
                         <Icon className="search--return-btn" type="arrow-left" />
                     </Link>
                 </header>

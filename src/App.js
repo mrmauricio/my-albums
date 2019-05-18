@@ -37,12 +37,12 @@ class App extends Component {
 
 		return (
    	 		<div className='app font-roboto'>				
-   	   			<Route path='/search' render={() => (
+   	   			<Route path={'/search'} render={() => (
 					<Search
 						updateFavourite={this.updateFavourite}	
 					/>
    	   			)}/>     	
-				<Route exact path='/' render={() => (  
+				<Route exact path={'/'} render={() => (  
 					<div>
 						<header className="app--header">
 							<div className="app--add">
