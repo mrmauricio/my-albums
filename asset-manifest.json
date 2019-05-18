@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-albums/static/css/main.864d2bae.chunk.css",
-    "main.js": "/my-albums/static/js/main.1c1bbbb2.chunk.js",
-    "main.js.map": "/my-albums/static/js/main.1c1bbbb2.chunk.js.map",
+    "main.js": "/my-albums/static/js/main.c746ea38.chunk.js",
+    "main.js.map": "/my-albums/static/js/main.c746ea38.chunk.js.map",
     "runtime~main.js": "/my-albums/static/js/runtime~main.5d191846.js",
     "runtime~main.js.map": "/my-albums/static/js/runtime~main.5d191846.js.map",
     "static/css/2.6466deae.chunk.css": "/my-albums/static/css/2.6466deae.chunk.css",
     "static/js/2.6758b5e5.chunk.js": "/my-albums/static/js/2.6758b5e5.chunk.js",
     "static/js/2.6758b5e5.chunk.js.map": "/my-albums/static/js/2.6758b5e5.chunk.js.map",
     "index.html": "/my-albums/index.html",
-    "precache-manifest.be2c460e01554afcf73dfb4ff95dddb0.js": "/my-albums/precache-manifest.be2c460e01554afcf73dfb4ff95dddb0.js",
+    "precache-manifest.6d1ebac70b541dd96a4b2e0d319cae4d.js": "/my-albums/precache-manifest.6d1ebac70b541dd96a4b2e0d319cae4d.js",
     "service-worker.js": "/my-albums/service-worker.js",
     "static/css/2.6466deae.chunk.css.map": "/my-albums/static/css/2.6466deae.chunk.css.map",
     "static/css/main.864d2bae.chunk.css.map": "/my-albums/static/css/main.864d2bae.chunk.css.map",
