@@ -34,7 +34,7 @@ class Favourite extends Component {
             <section className="favourite--bg-color">
             <div className="favourite--fixed-bg"></div>            
                 <Row className={`favourite--section-name ${this.getSectionColor()}`} type="flex" justify="center">
-                    <Col xs={24} sm={24} md={12} lg={12} xl={8} className="favourite--font-size font-concert">
+                    <Col xs={24} sm={24} md={12} lg={12} xl={8} className="favourite--font-size font-roboto-title">
                         {this.props.sectionName}
                     </Col>
                     <Col xs={24} sm={24} md={12} lg={12} xl={8}>

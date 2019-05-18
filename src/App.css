@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Concert+One');
-
-.app {
-
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto|Concert+One|Alegreya+Sans');
 
 .app--add {
     font-size: 35px;
@@ -47,8 +43,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.font-concert {
-    font-family: 'Concert One', 'Roboto', sans-serif;
+.font-roboto-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .font-courier {

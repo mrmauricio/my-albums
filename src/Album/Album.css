@@ -54,19 +54,19 @@
 .album--color-bad {
     background: -moz-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(255, 83, 83) 0%,rgb(255, 255, 255) 30%);    
+    background: linear-gradient(to right, rgba(255, 83, 83, 0.657) 0%,rgb(255, 255, 255) 30%);    
 }
 
 .album--color-decent {
     background: -moz-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(255, 255, 83) 0%,rgb(255, 255, 255) 30%);    
+    background: linear-gradient(to right, rgba(255, 255, 83, 0.657) 0%,rgb(255, 255, 255) 30%);    
 }
 
 .album--color-good {
     background: -moz-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(83, 255, 83) 0%,rgb(255, 255, 255) 30%);    
+    background: linear-gradient(to right, rgba(83, 255, 83, 0.657) 0%,rgb(255, 255, 255) 30%);    
 }
 
 .album--card:hover {

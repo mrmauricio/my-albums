@@ -43,9 +43,9 @@
 }
 
 .favourite--font-size {
-    font-size: 30px;
+    font-size: 27.5px;
     color: #05386B;
-    padding-top: 5px;
+    padding-top: 7.5px;
 }
 
 .favourite--group {
@@ -57,21 +57,21 @@
     background: rgb(249, 252, 255); /* Old browsers */
     background: -moz-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(249, 252, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(255, 83, 83) 0%,rgb(249, 252, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(255, 83, 83) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
+    background: linear-gradient(to right, rgba(255, 83, 83, 0.5) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
 }
 
 .favourite--section-color-decent {
     background: rgb(249, 252, 255); /* Old browsers */
     background: -moz-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(249, 252, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(255, 255, 83) 0%,rgb(249, 252, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(255, 255, 83) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
+    background: linear-gradient(to right, rgba(255, 255, 83, 0.5) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
 }
 
 .favourite--section-color-good {
     background: rgb(249, 252, 255); /* Old browsers */
     background: -moz-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(249, 252, 255) 30%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(83, 255, 83) 0%,rgb(249, 252, 255) 30%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgb(83, 255, 83) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
+    background: linear-gradient(to right, rgba(83, 255, 83, 0.5) 0%,rgb(249, 252, 255) 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
 }
 
 .favourite--section-name {

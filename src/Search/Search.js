@@ -266,7 +266,7 @@ class Search extends Component {
                 <main>
                     <div className="search--fixed-bg"></div>
                     <section className="search--menu search--header-gradient">          
-                        <Row className="search--category search--font font-concert">
+                        <Row className="search--category search--font font-roboto-title">
                             Search by artist or album name:
                         </Row>  
                         <Row className="search--input" type="flex" justify="start">
@@ -280,7 +280,7 @@ class Search extends Component {
                                 /> 
                             </Col> 
                         </Row>
-                        <Row className="search--category search--font font-concert">
+                        <Row className="search--category search--font font-roboto-title">
                             Select the genre:
                         </Row>
                         <Row>
