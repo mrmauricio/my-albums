@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MyAlbums] (src/utils/previews/home.png)
 
-## Available Scripts
+# My Albums
 
-In the project directory, you can run:
+## Live Project
 
-### `npm start`
+The app can be seen in action **[here](https://mrmauricio.github.io/my-albums/)**.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It may occur a certificate error as the AudioDB API seems unstable, but clicking on cancel everything runs as expected.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Project Overview
 
-### `npm test`
+"My Albums" is an app that allows you to search, select and categorize albums you have listened, deciding where it should belong between Masterpiece category (5 stars) and Terrible category (1 star).
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instructions
 
-### `npm run build`
+### Home Page
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the Home page are placed 5 categories:
+- Masterpiece (5 Stars)
+- Amazing (4 stars)
+- Decent (3 stars)
+- Bad (2 stars)
+- Terrible (1 star)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+The albums that are already placed on each categories are my personal choices, feel free to delete them and add yours. To do that, go to the Search page by clicking on the pulsing Add Button on the top right corner of the screen.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Search Page
 
-### `npm run eject`
+On the search page you can choose an album of your preference and, by clicking on the Add Button on the card's bottom right, you can rate it, deciding in which category it should belong.
+You can search by typing on the input or by selecting one of the musical genres. Then, the results will be shown below.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Search page:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Search Preview] (src/utils/previews/search.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Search example:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Search Preview] (src/utils/previews/search-example.png)
 
-## Learn More
+Rating an album:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Search Preview] (src/utils/previews/rate-example.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bands available:
 
-### Code Splitting
+![Search Preview] (src/utils/previews/bands-available.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Run Locally
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Clone this repository and go into its src folder.
+- Run  `npm install`
+- Run  `npm start`
+- Go to  `http://localhost:3000`  to view the app.
