@@ -1,4 +1,4 @@
-![MyAlbums] (src/utils/previews/home.png)
+![MyAlbums](https://raw.githubusercontent.com/mrmauricio/my-albums/master/src/utils/previews/home.png)
 
 # My Albums
 
@@ -6,7 +6,7 @@
 
 The app can be seen in action **[here](https://mrmauricio.github.io/my-albums/)**.
 
-It may occur a certificate error as the AudioDB API seems unstable, but clicking on cancel everything runs as expected.
+It may occur a certificate error as the AudioDB API seems unstable, but by clicking on cancel everything runs as expected.
 
 ## Project Overview
 
@@ -16,35 +16,35 @@ It may occur a certificate error as the AudioDB API seems unstable, but clicking
 
 ### Home Page
 
-On the Home page are placed 5 categories:
+On the Home page there are 5 categories:
 - Masterpiece (5 Stars)
 - Amazing (4 stars)
 - Decent (3 stars)
 - Bad (2 stars)
 - Terrible (1 star)
 
-The albums that are already placed on each categories are my personal choices, feel free to delete them and add yours. To do that, go to the Search page by clicking on the pulsing Add Button on the top right corner of the screen.
+The albums that are already placed on the categories are my personal choices, feel free to remove them and add yours. To do that, go to the Search page by clicking on the pulsing Add Button on the top right corner of the screen.
 
 ### Search Page
 
-On the search page you can choose an album of your preference and, by clicking on the Add Button on the card's bottom right, you can rate it, deciding in which category it should belong.
+On the Search page you can choose an album of your preference and, by clicking on the Add Button on the card's bottom right, you can rate it, deciding in which category it should belong.
 You can search by typing on the input or by selecting one of the musical genres. Then, the results will be shown below.
 
 Search page:
 
-![Search Preview] (src/utils/previews/search.png)
+![Search page](https://raw.githubusercontent.com/mrmauricio/my-albums/master/src/utils/previews/search.png)
 
 Search example:
 
-![Search Preview] (src/utils/previews/search-example.png)
+![Search example](https://raw.githubusercontent.com/mrmauricio/my-albums/master/src/utils/previews/search-example.png)
 
 Rating an album:
 
-![Search Preview] (src/utils/previews/rate-example.png)
+![Rating an album](https://raw.githubusercontent.com/mrmauricio/my-albums/master/src/utils/previews/rate-example.png)
 
 Bands available:
 
-![Search Preview] (src/utils/previews/bands-available.png)
+![Bands available](https://raw.githubusercontent.com/mrmauricio/my-albums/master/src/utils/previews/bands-available.png)
 
 ## Run Locally
 
