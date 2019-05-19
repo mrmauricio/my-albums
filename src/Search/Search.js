@@ -202,7 +202,7 @@ class Search extends Component {
     }    
 
     setInitialAlbums = () => {
-        if(this.state.albums.length > 467 
+        if(this.state.albums.length > 235 
         && this.state.initialAlbums.length === 0){
             const slicedAlbumArray = this.getArtistsRandomAlbum()
             const albums = this.sortArray(slicedAlbumArray)
@@ -350,7 +350,7 @@ class Search extends Component {
                             (this.state.genre === "all") && (this.state.query === "") && 
                             (!this.state.showAllAlbums) && ( 
                                 <Row className="search--info">
-                                    <Alert message={` Showing 70 of ${this.state.albums.length} albums `} type="info" />
+                                    <Alert message={` Showing ${this.state.initialAlbums.length} of ${this.state.albums.length} albums `} type="info" />
                                     <Button 
                                         className="search--info-button" 
                                         size="small" 
