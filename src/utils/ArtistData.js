@@ -113,22 +113,22 @@ const bands = {
             'Cardi B',
             //'2Pac',
             //'Tyler, The Creator'
-    ],
-
-    electronic: [
-            'Marshmello',
-            'The Chainsmokers',
-            'Avicii',
-            'David Guetta',
-            'Daft Punk',
-            'Gorillaz',
-            'Alesso',
-            //'Tiesto',
-            'Diplo',
-            "Gigi D'Agostino",
-            //'Deadmau5',
-            'Skrillex'            
     ]
+
+    //electronic: [
+    //        'Marshmello',
+    //        'The Chainsmokers',
+    //        'Avicii',
+    //        'David Guetta',
+    //        'Daft Punk',
+    //        'Gorillaz',
+    //        'Alesso',
+    //        //'Tiesto',
+    //        'Diplo',
+    //        "Gigi D'Agostino",
+    //        //'Deadmau5',
+    //        'Skrillex'            
+    //]
 }
 
 export default bands;

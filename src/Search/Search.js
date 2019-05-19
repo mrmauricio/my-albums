@@ -28,6 +28,7 @@ class Search extends Component {
     }
 
     abortController = new AbortController()
+    skeletonCards = [...Array(25)]
 
     capitalizeFirstLetter = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1);
@@ -147,11 +148,15 @@ class Search extends Component {
 
     getArrayOfIds = (array) => {
         return array.map(result => result.id)
-    }    
+    }
+    
+    getArtistsNames = () => {
+        return this.getGenreList().map( genre => this.state.bands[genre])
+    }
 
     getArtistsRandomAlbum = () => {
         const artistRandomAlbum = []
-        const bands = this.getGenreList().map( genre => this.state.bands[genre])
+        const bands = this.getArtistsNames()
         bands.map( bandsArray => 
             bandsArray.map( bandName => {
                 const bandAlbums = this.state.albums.filter( album => album.artistName === bandName)
@@ -202,7 +207,7 @@ class Search extends Component {
     }    
 
     setInitialAlbums = () => {
-        if(this.state.albums.length > 235 
+        if(this.state.albums.length > 199 
         && this.state.initialAlbums.length === 0){
             const slicedAlbumArray = this.getArtistsRandomAlbum()
             const albums = this.sortArray(slicedAlbumArray)
@@ -386,15 +391,14 @@ class Search extends Component {
                             {
                                 (this.state.initialAlbums.length === 0) && (
                                     <Row type="flex" justify="center">
-                                        {this.state.bands.rock.map( (band) => {
+                                        {this.skeletonCards.map( (band) => {
                                             return  <Card 
                                                         key={band}
                                                         className="album--card"                    				  
                                                     >
                                                         <Skeleton active/> 
                                                     </Card>  
-
-                                        })}
+                                        })}                                  
                                     </Row> 
                                 )
                             }{

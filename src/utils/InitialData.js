@@ -104,11 +104,11 @@ export function setInitialData() {
             ,artistName: "Muse"
             ,id: "2124430"
             ,rating: "3"},            
-            {albumImg: "https://www.theaudiodb.com/images/media/album/thumb/one-love-4e4296857b67b.jpg"
-            ,albumName: "One Love"
-            ,albumYear: "2009"
-            ,artistName: "David Guetta"
-            ,id: "2148537"
+            {albumImg: "https://www.theaudiodb.com/images/media/album/thumb/qwpuxw1440604386.jpg"
+            ,albumName: "Beauty Behind the Madness"
+            ,albumYear: "2015"
+            ,artistName: "The Weeknd"
+            ,id: "2247627"
             ,rating: "3"},      
             {albumImg: "https://www.theaudiodb.com/images/media/album/thumb/ryvqpu1507759333.jpg"
             ,albumName: "24K Magic"
