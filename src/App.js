@@ -3,7 +3,7 @@ import { Route, Link } from 'react-router-dom'
 import Favourite from './Favourite/Favourite'
 import Search from './Search/Search'
 import { setInitialData } from './utils/InitialData'
-import { Icon } from "antd";
+import { Icon, BackTop } from "antd";
 import logo from './images/logo.png'
 import './App.css'
 import "antd/dist/antd.css";
@@ -84,7 +84,12 @@ class App extends Component {
 								favourites={this.filterFavourites(this.state.favourites, starRate[0])}	
 								updateFavourite={this.updateFavourite}						
 								stars={starRate[0]}
-							/>					
+							/>	
+                    		<BackTop>
+                    		    <div className="app--backtop">
+                    		        <Icon type="arrow-up" />
+                    		    </div>
+                    		</BackTop>											
 						</main>											
 					</div>
    	   			)}/>

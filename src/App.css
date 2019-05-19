@@ -9,6 +9,22 @@
     stroke-width: 25;
 }
 
+.app--backtop {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 15px;
+    background-color:rgb(205, 222, 241); 
+    color: #05386B;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #05386B
+}
+
+.app--backtop:hover {
+    background-color: white
+}
+
 .app--icon {
     animation: big-pulse 2s infinite;
     -webkit-border-radius: 50%;
