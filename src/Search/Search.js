@@ -207,13 +207,7 @@ class Search extends Component {
     }    
 
     setInitialAlbums = () => {
-<<<<<<< HEAD
         if(this.state.albums.length > 195 
-||||||| merged common ancestors
-        if(this.state.albums.length > 235 
-=======
-        if(this.state.albums.length > 199 
->>>>>>> bc532184e75693cf8cd8d32d64015bf1da801b02
         && this.state.initialAlbums.length === 0){
             const slicedAlbumArray = this.getArtistsRandomAlbum()
             const albums = this.sortArray(slicedAlbumArray)

@@ -37,7 +37,7 @@ class Favourite extends Component {
                     <Col xs={24} sm={24} md={12} lg={12} xl={8} className="favourite--font-size font-roboto-title">
                         {this.props.sectionName}
                     </Col>
-                    <Col xs={24} sm={24} md={12} lg={12} xl={8}>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={8}> 
                         {
                             starRate
                                 .filter( rating => rating <= this.props.stars )
